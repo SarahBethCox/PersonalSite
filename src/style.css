@@ -10,3 +10,10 @@ body {
     color: navy;
     margin-left: 20px;
   }
+
+  .btn-primary { 
+    color: #E84A5F;
+    border-color: #E84A5F;
+    border-radius: 5px;
+    background-color: transparent;
+  }
