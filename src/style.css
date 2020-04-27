@@ -7,8 +7,12 @@ body {
   }
   
   h1 {
-    color: navy;
+    color: whitesmoke;
     margin-left: 20px;
+  }
+
+  p {
+    color: whitesmoke;
   }
 
   .nav-item {
