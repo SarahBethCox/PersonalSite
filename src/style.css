@@ -16,6 +16,33 @@ body {
     color: whitesmoke;
   }
 
+  .page1-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .email {
+    max-height: 350px;
+    width: auto;
+    padding-right: 35px;
+    float: right;
+    bottom: 0;
+  }
+
+  .social {
+    max-height: 225px;
+    width: auto;
+    padding-left: 35px;
+    bottom: 0;
+    position: fixed;
+  }
+
+  .logo {
+    max-width: 75%;
+    height: auto;
+  }
+
   .name {
     color: #E84A5F;
   }
