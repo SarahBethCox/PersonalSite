@@ -8,11 +8,22 @@ body {
   
   h1 {
     color: whitesmoke;
-    margin-left: 20px;
+    text-align: center;
+    padding-top: 200px;
   }
 
   p {
     color: whitesmoke;
+  }
+
+  .name {
+    color: #E84A5F;
+  }
+
+  .bio {
+    text-align: center;
+    padding-top: 25px;
+    font-size: larger;
   }
 
   .nav-item {
