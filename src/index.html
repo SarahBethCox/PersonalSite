@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <!--This is the link to the bootstrap sytlesheet-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--This is the link to the font family I am using. Can find fonts at fonts.google.com-->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <!--This is the link to your css stylesheet. Instead of a url it is the file path.-->
     <link rel="stylesheet" type="text/css" href="style.css">
 
+    <!--This is what will show up on the tab in your browser.-->
     <title>Sarah Cox</title>
 </head>
 <body>
 
+  <!--This is the code for the navbar.-->
   <nav class="navbar navbar-expand-lg navbar-dark">
     <a class="navbar-brand" href="#">
+      <!--Your logo goes here. It is the file path. -->
       <img class="logo" src="../assets/images/logo.png" alt="">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,6 +24,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
+        <!--Links to the different sections in the page.-->
         <li class="nav-item">
           <a class="nav-link" href="#">About Me</a>
         </li>
@@ -30,26 +37,31 @@
         <li class="nav-item1">
           <a class="nav-link" href="#">Contact </a>
         </li>
+        <!--Button to download the pdf of your resume.-->
         <button class="btn-primary" type="submit">Resume</button>
       </ul>
     </div>
   </nav>
 
+    <!--Heading in first section. Span class is to give your name a different color.-->
     <h1>
       Hello, I'm <span class="name">Sarah Cox</span>.
     </h1>
 
+    <!--Paragraph in first section part 1.-->
     <p class="bio">
       I am a student pursing a BS in Information Systems at 
       Arkansas Tech University. My anticipated graduation date is
       December 2020.
     </p>
+    <!--Paragraph in first section part 2-->
     <p class="bio">
       I enjoy doing User Interface design and front-end
       development. I also have experience in back-end coding and
       database management.
     </p>
 
+    <!--Images for github, linkedin, and your email.-->
     <div class="page1-bottom">
       <img class="social" src="../assets/images/social.png" alt="">
       <img class="email" src="../assets/images/email.png" alt="">
