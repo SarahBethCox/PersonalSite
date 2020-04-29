@@ -6,17 +6,37 @@ body {
     background-size: cover;
     font-family: 'Noto Sans JP', sans-serif;
   }
+
+  /* Paragraph in section 1. Only color is here. (Text stuff is below.) */
+  p {
+    color: whitesmoke;
+  }
   
+  /* Heading in projects section. */
+  .projects-title {
+    padding-top: 40px;
+    padding-left: 70px;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* Bio section. */
+  .section1 {
+    padding-bottom: 550px;
+  }
+
   /* Heading in section 1. Color, Alignment, and adding space above it. (Text stuff is below.) */
-  h1 {
+  .heading1 {
     color: whitesmoke;
     text-align: center;
     padding-top: 200px;
   }
 
-  /* Paragraph in section 1. Only color is here. (Text stuff is below.) */
-  p {
-    color: whitesmoke;
+  /* Projects section. */
+  .section2 {
+    text-align: left;
+    background-color: white;
+    opacity: 80%;
   }
 
   /* Section that holds the images for git, linkedin, and email at bottom of page. */
