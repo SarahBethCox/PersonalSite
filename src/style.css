@@ -12,21 +12,74 @@ body {
     color: whitesmoke;
   }
 
+  /* Footer */
+  .footer {
+    font-size: small;
+    background-color: white;
+    opacity: 80%;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  /* Email button in contact section */
+  .email-button {
+    font-size: 25px;
+    font-weight: bold;
+    color: #E84A5F;
+    border-color: #E84A5F;
+    border-radius: 5px;
+    background-color: transparent;
+  }
+
+  /* Make certian words underlined */
+  .underline {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+  }
+
+  /* Paragraph in the contact section */
+  .contact-text {
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    padding-bottom: 40px;
+  }
+
+  /* Heading in the contact section */
+  .contact-title {
+    padding-top: 40px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+
+  /* Contact section */
+  .section4 {
+    background-color: white;
+    opacity: 80%;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 200px;
+  }
+
   /* Pragraph in section 3. */
   .work-text {
     padding-left: 100px;
     padding-top: 40px;
+    font-size: larger;
   }
 
   /* Work experience section. */
   .section3 {
     background-color: #E84A5F;
     opacity: 80%;
+    padding-bottom: 100px;
   }
 
   /* Make certian words bold in work description. */
   .make-bold {
-    font-weight: bold;
+    font-weight: bolder;
   }
 
   /* Heading in the work experience section. */
