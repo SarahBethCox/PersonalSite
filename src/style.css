@@ -35,6 +35,11 @@ body {
   .link {
     text-decoration-line: underline;
     text-decoration-style: solid;
+    color: #E84A5F;
+  }
+
+  .link:hover {
+    color: rgb(145, 47, 60);
   }
 
   /* Paragraph in the contact section */
