@@ -188,6 +188,8 @@ body {
     border-color: #E84A5F;
     border-radius: 5px;
     background-color: transparent;
+    height: 40px;
+    width: 80px;
   }
 
   /* What happens when you mouse over the button. Here the color darkens. */
