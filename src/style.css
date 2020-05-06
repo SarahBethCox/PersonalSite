@@ -12,6 +12,11 @@ body {
     color: whitesmoke;
   }
 
+  /* make the scroll effect look better */
+  html {
+    scroll-behavior: smooth;
+  }
+
   /* Footer */
   .footer {
     font-size: small;
